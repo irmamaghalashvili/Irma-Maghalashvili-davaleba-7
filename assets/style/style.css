@@ -91,7 +91,7 @@
   }
   .second-section {
     width: 100%;
-    height: 1385px;
+    height: 884px;
     background-color: rgba(255, 116, 32, 1);
     padding: 50px;
   }
@@ -101,3 +101,213 @@
     font-size: 64px;
     color: rgba(25, 26, 25, 1);
   }
+  .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .container-div-1 {
+    padding-bottom: 30px;
+    width: 485.24px;
+    height: 613px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background: url(../images/donny.png) center / cover no-repeat;
+  }
+  .container-div-2 {
+    padding: 30px;
+    width: 485.24px;
+    height: 613px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background: url(../images/daniele.png) center / cover no-repeat;
+  }
+  .container-div-3 {
+    padding: 30px;
+    width: 485.24px;
+    height: 613px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background: url(../images/jack.png) center / cover no-repeat;
+  }
+  .container-div-h5 {
+    font-size: 24px;
+    color: rgba(255, 255, 255, 1);
+  }
+  .container-div-h6 {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+  }
+.second-section-h6 {
+  text-align: right;
+  padding: 10px;
+  font-size: 20px;
+  color: rgba(25, 26, 25, 1);
+}
+.second-section-h6::after {
+  content: url(../images/Vector1.svg);
+}
+.therd-section {
+  background-color: rgba(25, 26, 25, 1);
+}
+.therd-section {
+  padding: 30px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.therd-section h5 {
+  font-size: 28px;
+  color: rgba(255, 116, 32, 1);
+}
+.therd-section p {
+  margin-top: 28px;
+  margin-bottom: 15px;
+  max-width: 1067px;
+  font-size: 20px;
+}
+.therd-section h6 {
+  font-size: 20px;
+  margin-bottom: 14px;
+}
+.therd-section h4 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-size: 64px;
+}
+.form-div {
+  max-width: 1503px;
+  width: 100%;
+  height: 661px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.form {
+  background-color: rgba(255, 116, 32, 1);
+  max-width: 963px;
+  width: 100%;
+  border-radius: 15px;
+}
+.form h6 {
+  font-size: 24px;
+  padding-top: 42px;
+  margin-left: 58px;
+  text-align: left;
+}
+.form p {
+  font-size: 20px;
+  margin-left: 58px;
+  text-align: left;
+}
+.form-input {
+  margin: 9px;
+  max-width: 419px;
+  width: 100%;
+  height: 76px;
+  color: rgba(25, 26, 25, 0.5);
+  background-color: rgba(255, 255, 255, 1);
+  border: none;
+  border-radius: 15px;
+}
+.form-input-details {
+  max-width: 856px;
+  width: 100%;
+  height: 148px;
+  border: none;
+  border-radius: 15px;
+  margin-bottom: 24px;
+  color: rgba(25, 26, 25, 0.5);
+}
+.submit-btn {
+  max-width: 856px;
+  width: 100%;
+  height: 76px;
+  border: none;
+  border-radius: 15px;
+  background-color: rgba(25, 26, 25, 1);
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 45px;
+}
+.contact {
+  text-align: left;
+  max-width: 499px;
+  width: 100%;
+  border: none;
+  border-radius: 15px;
+  background-color: rgba(255, 116, 32, 1);
+}
+.contact h5 {
+  margin: 42px;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 1);
+}
+.contact h6 {
+  margin-left: 42px;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 1); 
+}
+.contact p {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+  margin-left: 42px;
+}
+.contact button {
+  width: 384px;
+  height: 76px;
+  border: none;
+  border-radius: 15px;
+  background-color: rgba(25, 26, 25, 1);
+  color: rgba(255, 255, 255, 1);
+  margin: 58px;
+}
+.footer {
+  padding: 50px;
+  color: rgba(255, 255, 255, 1);
+  width: 100%;
+  height: 359px;
+  background-color: rgba(25, 26, 25, 1);
+}
+.footer-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.foot-form { 
+  color: rgba(255, 255, 255, 0.5);
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+  background-color: rgba(25, 26, 25, 1);
+}
+.footer-form button {
+  border: none;
+  background-color: rgba(25, 26, 25, 1);
+}
+.footer-divs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 29px;
+}
+.footer-column {
+  max-width: 516px;
+}
+.footer-icons {
+  margin-left: 42px;
+  margin-top: 27px;
+}
+.footer-icons a {
+  margin: 10px;
+}
